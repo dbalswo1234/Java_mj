@@ -1,4 +1,6 @@
-package java28;
+package java30;
+
+import java30.Speaker;
 
 public class SpeakerClass implements Speaker{
 

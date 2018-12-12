@@ -1,5 +1,7 @@
 package java28;
 
+import java30.SpeakerClass;
+
 public class DadCar {
 	
 	public void dad() {
