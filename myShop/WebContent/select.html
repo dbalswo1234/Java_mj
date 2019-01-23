@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<script type="text/javascript">
+		function search() {
+			var id = document.getElementById("pid").value;
+			alert(id);
+			
+			location.href = "select.jsp?id="+id;
+		}
+	
+	</script>
+
+</head>
+<body>
+	<h2><font color="red">상품 검색</font></h2>
+	<hr color="pink">
+	
+	
+	상품id로 검색: &nbsp;<input type="text" name="id" id="pid"><br>
+	<input type="submit" value="검색" onclick="search()">
+	
+</body>
+</html>

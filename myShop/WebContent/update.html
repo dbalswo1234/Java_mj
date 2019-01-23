@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script type="text/javascript">
+	function update() {
+		var id = document.getElementById("pid").value;
+		
+		location.href = "update.jsp?id="+id; 
+	} 
+
+</script>
+</head>
+<body>
+	<h2><font color="purple">상품 수정 및 업데이트</font></h2>
+	<hr color="#9364B9">
+	
+	
+	<form action="update2.jsp" method="post">
+	<!-- 상품id:  &nbsp;<input type="text" name="pid"><br> -->
+	상품제목: &nbsp;<input type="text" name="title"><br>
+	상품설명: &nbsp;<input type="text" name="content"><br>
+	상품가격: &nbsp;<input type="text" name="price"><br>
+	<input type="submit" value="수정하기" onclick="update()">	
+	</form>
+	
+	
+	
+</body>
+</html>

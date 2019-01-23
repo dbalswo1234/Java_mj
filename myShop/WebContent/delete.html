@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+	<script type="text/javascript">
+	function delete2() {
+		var id = document.getElementById("pid").value;
+		
+		location.href = "delete.jsp?id="+id;
+	}
+	
+	</script>
+</head>
+<body>	
+	
+	<h2><font color="#00FF00">상품 삭제</font></h2>
+	<hr color="orange">
+	
+	<div class="d1">
+	상품id로 삭제: &nbsp;<input type="text" name="id" id="pid"><br>
+	<input type="submit" value="삭제" onclick="delete2()">
+	</div>
+	
+	
+</body>
+</html>
